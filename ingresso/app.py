@@ -4,9 +4,9 @@ Flask-based mock server for Ingresso Ticketing API
 """
 
 from flask import Flask, jsonify, request
-from ingresso_auth import require_basic_auth
-from ingresso_config import HOST, PORT, DEBUG
-from ingresso_mock_data import (
+from auth import require_basic_auth
+from config import HOST, PORT, DEBUG
+from mock_data import (
     EVENTS_RESPONSE,
     EVENTS_BY_ID_RESPONSE,
     MONTHS_RESPONSE,
@@ -14,7 +14,30 @@ from ingresso_mock_data import (
     PERFORMANCE_DETAIL_RESPONSE,
     AVAILABILITY_RESPONSE,
     RESERVE_RESPONSE,
-    RESERVATIONS
+    RESERVATIONS,
+    # Error responses
+    ERROR_BAD_CHANNEL,
+    ERROR_AUTH_FAILURE,
+    ERROR_BACKEND_CONNECTION,
+    ERROR_FORBIDDEN_NETWORK,
+    ERROR_DATABASE_CONNECTION,
+    ERROR_MEMBERSHIP_AUTH,
+    ERROR_BAD_DATA,
+    ERROR_EMAIL_BLANK,
+    ERROR_EMAIL_MISSING_AT,
+    ERROR_EMAIL_BAD_DOMAIN,
+    ERROR_EMAIL_SPACES_AFTER_AT,
+    ERROR_EMAIL_NON_ASCII,
+    ERROR_CARD_UNRECOGNISED,
+    ERROR_CARD_NOT_ACCEPTED,
+    ERROR_CARD_INVALID_NUMBER,
+    ERROR_CARD_INVALID_EXPIRY,
+    ERROR_CARD_INVALID_CV2,
+    ERROR_CARD_MISSING_ISSUE,
+    ERROR_CARD_INVALID_ISSUE,
+    ERROR_CARD_MISSING_START_DATE,
+    ERROR_CARD_INVALID_START_DATE,
+    EMAIL_ERROR_KEYS
 )
 
 app = Flask(__name__)
@@ -213,6 +236,134 @@ def reserve():
     return jsonify(RESERVE_RESPONSE), 200
 
 
+@app.route('/f13/test_errors.v1', methods=['GET'])
+@require_basic_auth
+def test_errors():
+    """
+    Test error responses
+    Query parameters:
+    - error_code (required): Error code to test (2-8, 2000, 3000-3008)
+    - email_error_key (optional): Specific email error key for error_code 2000
+
+    Examples:
+    - /f13/test_errors.v1?error_code=2        # Bad channel
+    - /f13/test_errors.v1?error_code=8        # Bad data
+    - /f13/test_errors.v1?error_code=2000&email_error_key=addr_missing_at
+    - /f13/test_errors.v1?error_code=3002     # Invalid card number
+    """
+    error_code = request.args.get('error_code')
+
+    if not error_code:
+        return jsonify({
+            "error": "Missing required parameter",
+            "message": "error_code is required"
+        }), 400
+
+    try:
+        error_code = int(error_code)
+    except ValueError:
+        return jsonify({
+            "error": "Invalid parameter",
+            "message": "error_code must be a number"
+        }), 400
+
+    # Map error codes to responses and HTTP status codes
+    error_mapping = {
+        2: (ERROR_BAD_CHANNEL, 460),
+        3: (ERROR_AUTH_FAILURE, 401),
+        4: (ERROR_BACKEND_CONNECTION, 502),
+        5: (ERROR_FORBIDDEN_NETWORK, 403),
+        6: (ERROR_DATABASE_CONNECTION, 500),
+        7: (ERROR_MEMBERSHIP_AUTH, 401),
+        8: (ERROR_BAD_DATA, 460),
+        3000: (ERROR_CARD_UNRECOGNISED, 460),
+        3001: (ERROR_CARD_NOT_ACCEPTED, 460),
+        3002: (ERROR_CARD_INVALID_NUMBER, 460),
+        3003: (ERROR_CARD_INVALID_EXPIRY, 460),
+        3004: (ERROR_CARD_INVALID_CV2, 460),
+        3005: (ERROR_CARD_MISSING_ISSUE, 460),
+        3006: (ERROR_CARD_INVALID_ISSUE, 460),
+        3007: (ERROR_CARD_MISSING_START_DATE, 460),
+        3008: (ERROR_CARD_INVALID_START_DATE, 460),
+    }
+
+    # Handle email errors (2000)
+    if error_code == 2000:
+        email_error_key = request.args.get('email_error_key', 'addr_may_not_be_blank')
+
+        if email_error_key not in EMAIL_ERROR_KEYS:
+            return jsonify({
+                "error": "Invalid email_error_key",
+                "message": f"Valid keys: {', '.join(EMAIL_ERROR_KEYS.keys())}"
+            }), 400
+
+        error_response = {
+            "error_code": 2000,
+            "error_desc": "Email address is invalid",
+            "error_key": email_error_key,
+            "transaction_uuid": f"U-TEST-EMAIL-ERROR-{email_error_key.upper()}"
+        }
+        return jsonify(error_response), 460
+
+    # Handle other errors
+    if error_code in error_mapping:
+        error_response, status_code = error_mapping[error_code]
+        return jsonify(error_response), status_code
+
+    return jsonify({
+        "error": "Unknown error_code",
+        "message": f"Supported error codes: 2-8, 2000, 3000-3008"
+    }), 400
+
+
+@app.route('/f13/test_errors.v1/list', methods=['GET'])
+def list_error_codes():
+    """
+    List all available error codes for testing (no auth required for convenience)
+    """
+    return jsonify({
+        "general_errors": {
+            "2": "Bad channel",
+            "3": "User authentication failure",
+            "4": "Failed to create connection to the backend system",
+            "5": "Host is on a forbidden network",
+            "6": "Failed to connect to database",
+            "7": "Membership authentication failed",
+            "8": "Bad data supplied"
+        },
+        "email_errors": {
+            "2000": "Email address is invalid (use email_error_key parameter)",
+            "email_error_keys": list(EMAIL_ERROR_KEYS.keys())
+        },
+        "card_errors": {
+            "3000": "Unrecognised card type from number",
+            "3001": "Card type not accepted",
+            "3002": "Not a valid card number",
+            "3003": "Invalid expiry date",
+            "3004": "Invalid CV2",
+            "3005": "Missing issue number",
+            "3006": "Invalid issue number",
+            "3007": "Missing start date",
+            "3008": "Invalid start date"
+        },
+        "usage": {
+            "endpoint": "/f13/test_errors.v1",
+            "method": "GET",
+            "auth": "Basic Auth required",
+            "parameters": {
+                "error_code": "Required - Error code to test",
+                "email_error_key": "Optional - For error_code=2000 only"
+            },
+            "examples": [
+                "/f13/test_errors.v1?error_code=2",
+                "/f13/test_errors.v1?error_code=8",
+                "/f13/test_errors.v1?error_code=2000&email_error_key=addr_missing_at",
+                "/f13/test_errors.v1?error_code=3002"
+            ]
+        }
+    }), 200
+
+
 if __name__ == '__main__':
     print(f"Starting Ingresso Mock Server on {HOST}:{PORT}")
     print(f"Basic Auth credentials: demo / demopass")
@@ -225,4 +376,7 @@ if __name__ == '__main__':
     print("  GET  /f13/performances_by_id.v1")
     print("  GET  /f13/availability.v1")
     print("  POST /f13/reserve.v1")
+    print("\nError testing endpoints:")
+    print("  GET  /f13/test_errors.v1/list    (no auth - list all error codes)")
+    print("  GET  /f13/test_errors.v1?error_code=<code>")
     app.run(host=HOST, port=PORT, debug=DEBUG)

@@ -1258,7 +1258,7 @@ PERFORMANCE_DETAIL_RESPONSE = {
 # GET /f13/availability.v1
 # Example: GET /f13/availability.v1?perf_id=1GNCR-5
 # This response contains availability and pricing details for the performance
-# Note: This is a simplified version with a few ticket types for brevity
+# Contains 40+ ticket types across Main Level, Terrace Level, Lower Gallery, and Upper Gallery sections
 AVAILABILITY_RESPONSE = {
     "availability": {
         "ticket_type": [
@@ -1288,6 +1288,735 @@ AVAILABILITY_RESPONSE = {
                 ],
                 "ticket_type_code": "1.109",
                 "ticket_type_desc": "Main Level Seating: section 109"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.110",
+                "ticket_type_desc": "Main Level Seating: section 110"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.102",
+                "ticket_type_desc": "Main Level Seating: section 102"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.101",
+                "ticket_type_desc": "Main Level Seating: section 101"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.104",
+                "ticket_type_desc": "Main Level Seating: section 104"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.103",
+                "ticket_type_desc": "Main Level Seating: section 103"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.106",
+                "ticket_type_desc": "Main Level Seating: section 106"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.105",
+                "ticket_type_desc": "Main Level Seating: section 105"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.108",
+                "ticket_type_desc": "Main Level Seating: section 108"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "49/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "49",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "1.107",
+                "ticket_type_desc": "Main Level Seating: section 107"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "51/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "51",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.201",
+                "ticket_type_desc": "Terrace Level Seating: section 201"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "51/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "51",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.211",
+                "ticket_type_desc": "Terrace Level Seating: section 211"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.208",
+                "ticket_type_desc": "Terrace Level Seating: section 208"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.207",
+                "ticket_type_desc": "Terrace Level Seating: section 207"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.206",
+                "ticket_type_desc": "Terrace Level Seating: section 206"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.205",
+                "ticket_type_desc": "Terrace Level Seating: section 205"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.204",
+                "ticket_type_desc": "Terrace Level Seating: section 204"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.203",
+                "ticket_type_desc": "Terrace Level Seating: section 203"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.202",
+                "ticket_type_desc": "Terrace Level Seating: section 202"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.210",
+                "ticket_type_desc": "Terrace Level Seating: section 210"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 395.0,
+                        "non_offer_sale_seatprice": 289.0,
+                        "non_offer_sale_surcharge": 106.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "50/pool",
+                        "sale_combined": 395.0,
+                        "sale_seatprice": 289.0,
+                        "sale_surcharge": 106.0,
+                        "unsuffixed_price_band_code": "50",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "2.209",
+                "ticket_type_desc": "Terrace Level Seating: section 209"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.306",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 306"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.305",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 305"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.308",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 308"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.307",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 307"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.304",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 304"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.303",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 303"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 295.0,
+                        "non_offer_sale_seatprice": 215.0,
+                        "non_offer_sale_surcharge": 80.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "52/pool",
+                        "sale_combined": 295.0,
+                        "sale_seatprice": 215.0,
+                        "sale_surcharge": 80.0,
+                        "unsuffixed_price_band_code": "52",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.309",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 309"
             },
             {
                 "price_band": [
@@ -1354,6 +2083,327 @@ AVAILABILITY_RESPONSE = {
                         "is_offer": False,
                         "max_order_no_of_seats": 8,
                         "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 6,
+                        "percentage_saving": 0,
+                        "price_band_code": "54/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "54",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6]
+                    }
+                ],
+                "ticket_type_code": "3.301",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 301"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "54/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "54",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "3.310",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 310"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 6,
+                        "percentage_saving": 0,
+                        "price_band_code": "54/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "54",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6]
+                    }
+                ],
+                "ticket_type_code": "3.311",
+                "ticket_type_desc": "Lower Gallery Level Seating: section 311"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "55/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "55",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    },
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.404",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 404"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "55/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "55",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    },
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.408",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 408"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "55/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "55",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    },
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.407",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 407"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "55/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "55",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    },
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.406",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 406"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 195.0,
+                        "non_offer_sale_seatprice": 133.0,
+                        "non_offer_sale_surcharge": 62.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "55/pool",
+                        "sale_combined": 195.0,
+                        "sale_seatprice": 133.0,
+                        "sale_surcharge": 62.0,
+                        "unsuffixed_price_band_code": "55",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    },
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.405",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 405"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
                         "non_offer_sale_combined": 145.0,
                         "non_offer_sale_seatprice": 99.0,
                         "non_offer_sale_surcharge": 46.0,
@@ -1369,6 +2419,33 @@ AVAILABILITY_RESPONSE = {
                 ],
                 "ticket_type_code": "4.403",
                 "ticket_type_desc": "Upper Gallery Level Seating: section 403"
+            },
+            {
+                "price_band": [
+                    {
+                        "absolute_saving": 0.0,
+                        "allows_leaving_single_seats": "never",
+                        "discount_code": "00000B0E0001",
+                        "discount_desc": "INGR1",
+                        "discount_semantic_type": "standard",
+                        "is_offer": False,
+                        "max_order_no_of_seats": 8,
+                        "min_order_no_of_seats": 1,
+                        "non_offer_sale_combined": 145.0,
+                        "non_offer_sale_seatprice": 99.0,
+                        "non_offer_sale_surcharge": 46.0,
+                        "number_available": 8,
+                        "percentage_saving": 0,
+                        "price_band_code": "56/pool",
+                        "sale_combined": 145.0,
+                        "sale_seatprice": 99.0,
+                        "sale_surcharge": 46.0,
+                        "unsuffixed_price_band_code": "56",
+                        "valid_quantities": [1, 2, 3, 4, 5, 6, 7, 8]
+                    }
+                ],
+                "ticket_type_code": "4.409",
+                "ticket_type_desc": "Upper Gallery Level Seating: section 409"
             }
         ]
     },
@@ -1568,6 +2645,150 @@ RESERVE_RESPONSE = {
         "trolley_order_count": 1
     },
     "unreserved_orders": []
+}
+
+# ERROR RESPONSES FOR TESTING
+# These can be used to test error handling in client applications
+
+# Bad channel error
+ERROR_BAD_CHANNEL = {
+    "error_code": 2,
+    "error_desc": "Bad channel"
+}
+
+# User authentication failure
+ERROR_AUTH_FAILURE = {
+    "error_code": 3,
+    "error_desc": "User authentication failure"
+}
+
+# Failed to create connection to backend system
+ERROR_BACKEND_CONNECTION = {
+    "error_code": 4,
+    "error_desc": "Failed to create connection to the backend system"
+}
+
+# Host is on a forbidden network
+ERROR_FORBIDDEN_NETWORK = {
+    "error_code": 5,
+    "error_desc": "Host is on a forbidden network"
+}
+
+# Failed to connect to database
+ERROR_DATABASE_CONNECTION = {
+    "error_code": 6,
+    "error_desc": "Failed to connect to database"
+}
+
+# Membership authentication failed
+ERROR_MEMBERSHIP_AUTH = {
+    "error_code": 7,
+    "error_desc": "Membership authentication failed"
+}
+
+# Bad data supplied
+ERROR_BAD_DATA = {
+    "error_code": 8,
+    "error_desc": "Bad data supplied"
+}
+
+# Email validation errors with error_key
+ERROR_EMAIL_BLANK = {
+    "error_code": 2000,
+    "error_desc": "Email address is invalid",
+    "error_key": "addr_may_not_be_blank",
+    "transaction_uuid": "U-TEST-EMAIL-ERROR-001"
+}
+
+ERROR_EMAIL_MISSING_AT = {
+    "error_code": 2000,
+    "error_desc": "Email address is invalid",
+    "error_key": "addr_missing_at",
+    "transaction_uuid": "U-TEST-EMAIL-ERROR-002"
+}
+
+ERROR_EMAIL_BAD_DOMAIN = {
+    "error_code": 2000,
+    "error_desc": "Email address is invalid",
+    "error_key": "addr_bad_email_domain",
+    "transaction_uuid": "U-TEST-EMAIL-ERROR-003"
+}
+
+ERROR_EMAIL_SPACES_AFTER_AT = {
+    "error_code": 2000,
+    "error_desc": "Email address is invalid",
+    "error_key": "addr_spaces_not_allowed_after_at",
+    "transaction_uuid": "U-TEST-EMAIL-ERROR-004"
+}
+
+ERROR_EMAIL_NON_ASCII = {
+    "error_code": 2000,
+    "error_desc": "Email address is invalid",
+    "error_key": "addr_non_ascii_after_at",
+    "transaction_uuid": "U-TEST-EMAIL-ERROR-005"
+}
+
+# Card errors
+ERROR_CARD_UNRECOGNISED = {
+    "error_code": 3000,
+    "error_desc": "Unrecognised card type from number"
+}
+
+ERROR_CARD_NOT_ACCEPTED = {
+    "error_code": 3001,
+    "error_desc": "Card type not accepted"
+}
+
+ERROR_CARD_INVALID_NUMBER = {
+    "error_code": 3002,
+    "error_desc": "Not a valid card number"
+}
+
+ERROR_CARD_INVALID_EXPIRY = {
+    "error_code": 3003,
+    "error_desc": "Invalid expiry date"
+}
+
+ERROR_CARD_INVALID_CV2 = {
+    "error_code": 3004,
+    "error_desc": "Invalid CV2"
+}
+
+ERROR_CARD_MISSING_ISSUE = {
+    "error_code": 3005,
+    "error_desc": "Missing issue number"
+}
+
+ERROR_CARD_INVALID_ISSUE = {
+    "error_code": 3006,
+    "error_desc": "Invalid issue number"
+}
+
+ERROR_CARD_MISSING_START_DATE = {
+    "error_code": 3007,
+    "error_desc": "Missing start date"
+}
+
+ERROR_CARD_INVALID_START_DATE = {
+    "error_code": 3008,
+    "error_desc": "Invalid start date"
+}
+
+# Collection of all email error keys for testing
+EMAIL_ERROR_KEYS = {
+    "addr_may_not_be_blank": "Email addresses may not be blank",
+    "addr_missing_at": "Missing '@' sign",
+    "addr_may_not_start_with_at": "Email addresses may not start with '@' sign",
+    "addr_may_not_end_with_at": "Email addresses may not end with '@' sign",
+    "addr_cannot_end_in_dot": "Address cannot end in '.'",
+    "addr_cannot_have_dot_immediately_after_at": "Cannot have '.' immediately after '@' sign",
+    "addr_cannot_have_dot_dot_after_at": "Cannot have '..' after '@' sign",
+    "addr_needs_at_least_one_dot": "Must have at least one '.' after '@' sign",
+    "addr_spaces_not_allowed_after_at": "Spaces not allowed after '@' sign",
+    "addr_spaces_before_at_must_be_quoted": "Spaces before '@' sign must be quoted",
+    "addr_non_ascii_before_at": "Non-ASCII character before '@' sign",
+    "addr_non_ascii_after_at": "Non-ASCII character after '@' sign",
+    "addr_bad_email_domain": "This domain is not e-mailable"
 }
 
 # In-memory storage for reservations

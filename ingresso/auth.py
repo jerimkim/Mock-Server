@@ -6,7 +6,7 @@ Handles Basic Authentication for API requests
 from functools import wraps
 from flask import request, jsonify
 import base64
-from ingresso_config import USERNAME, PASSWORD
+from config import USERNAME, PASSWORD
 
 
 def check_auth(username, password):
